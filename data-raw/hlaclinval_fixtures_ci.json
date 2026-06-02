@@ -1,0 +1,9 @@
+{
+  "scenario": "konvinse_vanco_seed1_nboot20000",
+  "seed":             1,
+  "n_boot":         20000,
+  "nnt_lower":         47.83,
+  "nnt_upper":       129.033,
+  "ppv_population_lower":      0.122329,
+  "ppv_population_upper":      0.332169
+}

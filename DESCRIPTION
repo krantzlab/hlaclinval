@@ -1,0 +1,28 @@
+Package: hlaclinval
+Title: Clinical-Translation Metrics for HLA Association Studies
+Version: 0.1.0
+Authors@R:
+    person("Matthew", "Krantz", , "your.email@vumc.org", role = c("aut", "cre"))
+Description: Tools for translating HLA-disease and HLA-drug association results
+    into clinical-utility metrics and study-design quantities. Computes positive
+    and negative predictive value, number needed to test, and the absolute risk
+    in exposed carriers for an allele used as a screening test, and provides
+    exact power and minimum-detectable-odds-ratio calculations for case-control
+    carrier-status associations based on Fisher's exact test. All estimators are
+    documented and validated against published HLA associations.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports:
+    graphics,
+    grDevices,
+    stats
+Depends:
+    R (>= 3.6)
+Suggests:
+    testthat (>= 3.0.0),
+    epiR
+Config/testthat/edition: 3
+URL: https://github.com/krantzlab/hlaclinval
+BugReports: https://github.com/krantzlab/hlaclinval/issues

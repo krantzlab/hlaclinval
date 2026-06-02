@@ -1,0 +1,2255 @@
+{
+  "package": "hlaclinval",
+  "generated": "2026-06-02",
+  "r_version": "4.3.3",
+  "description": "Expected values for the web calculators; regenerate with gen_fixtures.R",
+  "predictive": [
+    {
+      "sensitivity":           0.1,
+      "carriage":          0.02,
+      "incidence_one_in":            37,
+      "ppv": 0.135135135135,
+      "npv": 0.975179260894,
+      "nnt":           370,
+      "carrier_risk": 0.135135135135,
+      "ppv_ceiling":             1
+    },
+    {
+      "sensitivity":           0.1,
+      "carriage":          0.02,
+      "incidence_one_in":            50,
+      "ppv":           0.1,
+      "npv": 0.981632653061,
+      "nnt":           500,
+      "carrier_risk":           0.1,
+      "ppv_ceiling":             1
+    },
+    {
+      "sensitivity":           0.1,
+      "carriage":          0.02,
+      "incidence_one_in":            68,
+      "ppv": 0.0735294117647,
+      "npv": 0.986494597839,
+      "nnt":           680,
+      "carrier_risk": 0.0735294117647,
+      "ppv_ceiling": 0.735294117647
+    },
+    {
+      "sensitivity":           0.1,
+      "carriage":          0.02,
+      "incidence_one_in":           417,
+      "ppv": 0.0119904076739,
+      "npv": 0.997797680223,
+      "nnt":          4170,
+      "carrier_risk": 0.0119904076739,
+      "ppv_ceiling": 0.119904076739
+    },
+    {
+      "sensitivity":           0.1,
+      "carriage":          0.02,
+      "incidence_one_in":          1000,
+      "ppv":         0.005,
+      "npv": 0.999081632653,
+      "nnt":         10000,
+      "carrier_risk":         0.005,
+      "ppv_ceiling":          0.05
+    },
+    {
+      "sensitivity":           0.1,
+      "carriage":          0.02,
+      "incidence_one_in":         10000,
+      "ppv":        0.0005,
+      "npv": 0.999908163265,
+      "nnt":        100000,
+      "carrier_risk":        0.0005,
+      "ppv_ceiling":         0.005
+    },
+    {
+      "sensitivity":           0.1,
+      "carriage":          0.02,
+      "incidence_one_in":        100000,
+      "ppv":         5e-05,
+      "npv": 0.999990816327,
+      "nnt":       1000000,
+      "carrier_risk":         5e-05,
+      "ppv_ceiling":        0.0005
+    },
+    {
+      "sensitivity":           0.1,
+      "carriage":          0.06,
+      "incidence_one_in":            37,
+      "ppv": 0.045045045045,
+      "npv": 0.974123059229,
+      "nnt":           370,
+      "carrier_risk": 0.045045045045,
+      "ppv_ceiling": 0.45045045045
+    },
+    {
+      "sensitivity":           0.1,
+      "carriage":          0.06,
+      "incidence_one_in":            50,
+      "ppv": 0.0333333333333,
+      "npv": 0.98085106383,
+      "nnt":           500,
+      "carrier_risk": 0.0333333333333,
+      "ppv_ceiling": 0.333333333333
+    },
+    {
+      "sensitivity":           0.1,
+      "carriage":          0.06,
+      "incidence_one_in":            68,
+      "ppv": 0.0245098039216,
+      "npv": 0.985919899875,
+      "nnt":           680,
+      "carrier_risk": 0.0245098039216,
+      "ppv_ceiling": 0.245098039216
+    },
+    {
+      "sensitivity":           0.1,
+      "carriage":          0.06,
+      "incidence_one_in":           417,
+      "ppv": 0.00399680255795,
+      "npv": 0.997703964488,
+      "nnt":          4170,
+      "carrier_risk": 0.00399680255795,
+      "ppv_ceiling": 0.0399680255795
+    },
+    {
+      "sensitivity":           0.1,
+      "carriage":          0.06,
+      "incidence_one_in":          1000,
+      "ppv": 0.00166666666667,
+      "npv": 0.999042553191,
+      "nnt":         10000,
+      "carrier_risk": 0.00166666666667,
+      "ppv_ceiling": 0.0166666666667
+    },
+    {
+      "sensitivity":           0.1,
+      "carriage":          0.06,
+      "incidence_one_in":         10000,
+      "ppv": 0.000166666666667,
+      "npv": 0.999904255319,
+      "nnt":        100000,
+      "carrier_risk": 0.000166666666667,
+      "ppv_ceiling": 0.00166666666667
+    },
+    {
+      "sensitivity":           0.1,
+      "carriage":          0.06,
+      "incidence_one_in":        100000,
+      "ppv": 1.66666666667e-05,
+      "npv": 0.999990425532,
+      "nnt":       1000000,
+      "carrier_risk": 1.66666666667e-05,
+      "ppv_ceiling": 0.000166666666667
+    },
+    {
+      "sensitivity":           0.1,
+      "carriage":         0.063,
+      "incidence_one_in":            37,
+      "ppv":  0.0429000429,
+      "npv": 0.974040208832,
+      "nnt":           370,
+      "carrier_risk":  0.0429000429,
+      "ppv_ceiling":   0.429000429
+    },
+    {
+      "sensitivity":           0.1,
+      "carriage":         0.063,
+      "incidence_one_in":            50,
+      "ppv": 0.031746031746,
+      "npv": 0.980789754536,
+      "nnt":           500,
+      "carrier_risk": 0.031746031746,
+      "ppv_ceiling": 0.31746031746
+    },
+    {
+      "sensitivity":           0.1,
+      "carriage":         0.063,
+      "incidence_one_in":            68,
+      "ppv": 0.0233426704015,
+      "npv": 0.985874819512,
+      "nnt":           680,
+      "carrier_risk": 0.0233426704015,
+      "ppv_ceiling": 0.233426704015
+    },
+    {
+      "sensitivity":           0.1,
+      "carriage":         0.063,
+      "incidence_one_in":           417,
+      "ppv": 0.00380647862662,
+      "npv": 0.997696613254,
+      "nnt":          4170,
+      "carrier_risk": 0.00380647862662,
+      "ppv_ceiling": 0.0380647862662
+    },
+    {
+      "sensitivity":           0.1,
+      "carriage":         0.063,
+      "incidence_one_in":          1000,
+      "ppv": 0.0015873015873,
+      "npv": 0.999039487727,
+      "nnt":         10000,
+      "carrier_risk": 0.0015873015873,
+      "ppv_ceiling": 0.015873015873
+    },
+    {
+      "sensitivity":           0.1,
+      "carriage":         0.063,
+      "incidence_one_in":         10000,
+      "ppv": 0.00015873015873,
+      "npv": 0.999903948773,
+      "nnt":        100000,
+      "carrier_risk": 0.00015873015873,
+      "ppv_ceiling": 0.0015873015873
+    },
+    {
+      "sensitivity":           0.1,
+      "carriage":         0.063,
+      "incidence_one_in":        100000,
+      "ppv": 1.5873015873e-05,
+      "npv": 0.999990394877,
+      "nnt":       1000000,
+      "carrier_risk": 1.5873015873e-05,
+      "ppv_ceiling": 0.00015873015873
+    },
+    {
+      "sensitivity":           0.1,
+      "carriage":          0.09,
+      "incidence_one_in":            37,
+      "ppv": 0.03003003003,
+      "npv": 0.97326997327,
+      "nnt":           370,
+      "carrier_risk": 0.03003003003,
+      "ppv_ceiling":  0.3003003003
+    },
+    {
+      "sensitivity":           0.1,
+      "carriage":          0.09,
+      "incidence_one_in":            50,
+      "ppv": 0.0222222222222,
+      "npv": 0.98021978022,
+      "nnt":           500,
+      "carrier_risk": 0.0222222222222,
+      "ppv_ceiling": 0.222222222222
+    },
+    {
+      "sensitivity":           0.1,
+      "carriage":          0.09,
+      "incidence_one_in":            68,
+      "ppv": 0.016339869281,
+      "npv": 0.98545572075,
+      "nnt":           680,
+      "carrier_risk": 0.016339869281,
+      "ppv_ceiling": 0.16339869281
+    },
+    {
+      "sensitivity":           0.1,
+      "carriage":          0.09,
+      "incidence_one_in":           417,
+      "ppv": 0.00266453503864,
+      "npv": 0.99762827101,
+      "nnt":          4170,
+      "carrier_risk": 0.00266453503864,
+      "ppv_ceiling": 0.0266453503864
+    },
+    {
+      "sensitivity":           0.1,
+      "carriage":          0.09,
+      "incidence_one_in":          1000,
+      "ppv": 0.00111111111111,
+      "npv": 0.999010989011,
+      "nnt":         10000,
+      "carrier_risk": 0.00111111111111,
+      "ppv_ceiling": 0.0111111111111
+    },
+    {
+      "sensitivity":           0.1,
+      "carriage":          0.09,
+      "incidence_one_in":         10000,
+      "ppv": 0.000111111111111,
+      "npv": 0.999901098901,
+      "nnt":        100000,
+      "carrier_risk": 0.000111111111111,
+      "ppv_ceiling": 0.00111111111111
+    },
+    {
+      "sensitivity":           0.1,
+      "carriage":          0.09,
+      "incidence_one_in":        100000,
+      "ppv": 1.11111111111e-05,
+      "npv": 0.99999010989,
+      "nnt":       1000000,
+      "carrier_risk": 1.11111111111e-05,
+      "ppv_ceiling": 0.000111111111111
+    },
+    {
+      "sensitivity":           0.1,
+      "carriage":         0.168,
+      "incidence_one_in":            37,
+      "ppv": 0.0160875160875,
+      "npv": 0.970764033264,
+      "nnt":           370,
+      "carrier_risk": 0.0160875160875,
+      "ppv_ceiling": 0.160875160875
+    },
+    {
+      "sensitivity":           0.1,
+      "carriage":         0.168,
+      "incidence_one_in":            50,
+      "ppv": 0.0119047619048,
+      "npv": 0.978365384615,
+      "nnt":           500,
+      "carrier_risk": 0.0119047619048,
+      "ppv_ceiling": 0.119047619048
+    },
+    {
+      "sensitivity":           0.1,
+      "carriage":         0.168,
+      "incidence_one_in":            68,
+      "ppv": 0.00875350140056,
+      "npv": 0.98409219457,
+      "nnt":           680,
+      "carrier_risk": 0.00875350140056,
+      "ppv_ceiling": 0.0875350140056
+    },
+    {
+      "sensitivity":           0.1,
+      "carriage":         0.168,
+      "incidence_one_in":           417,
+      "ppv": 0.00142742948498,
+      "npv": 0.997405921417,
+      "nnt":          4170,
+      "carrier_risk": 0.00142742948498,
+      "ppv_ceiling": 0.0142742948498
+    },
+    {
+      "sensitivity":           0.1,
+      "carriage":         0.168,
+      "incidence_one_in":          1000,
+      "ppv": 0.000595238095238,
+      "npv": 0.998918269231,
+      "nnt":         10000,
+      "carrier_risk": 0.000595238095238,
+      "ppv_ceiling": 0.00595238095238
+    },
+    {
+      "sensitivity":           0.1,
+      "carriage":         0.168,
+      "incidence_one_in":         10000,
+      "ppv": 5.95238095238e-05,
+      "npv": 0.999891826923,
+      "nnt":        100000,
+      "carrier_risk": 5.95238095238e-05,
+      "ppv_ceiling": 0.000595238095238
+    },
+    {
+      "sensitivity":           0.1,
+      "carriage":         0.168,
+      "incidence_one_in":        100000,
+      "ppv": 5.95238095238e-06,
+      "npv": 0.999989182692,
+      "nnt":       1000000,
+      "carrier_risk": 5.95238095238e-06,
+      "ppv_ceiling": 5.95238095238e-05
+    },
+    {
+      "sensitivity":         0.414,
+      "carriage":          0.02,
+      "incidence_one_in":            37,
+      "ppv": 0.559459459459,
+      "npv": 0.983838940982,
+      "nnt": 89.3719806763,
+      "carrier_risk": 0.559459459459,
+      "ppv_ceiling":             1
+    },
+    {
+      "sensitivity":         0.414,
+      "carriage":          0.02,
+      "incidence_one_in":            50,
+      "ppv":         0.414,
+      "npv": 0.988040816327,
+      "nnt":  120.77294686,
+      "carrier_risk":         0.414,
+      "ppv_ceiling":             1
+    },
+    {
+      "sensitivity":         0.414,
+      "carriage":          0.02,
+      "incidence_one_in":            68,
+      "ppv": 0.304411764706,
+      "npv": 0.991206482593,
+      "nnt": 164.251207729,
+      "carrier_risk": 0.304411764706,
+      "ppv_ceiling": 0.735294117647
+    },
+    {
+      "sensitivity":         0.414,
+      "carriage":          0.02,
+      "incidence_one_in":           417,
+      "ppv": 0.0496402877698,
+      "npv": 0.998566045123,
+      "nnt": 1007.24637681,
+      "carrier_risk": 0.0496402877698,
+      "ppv_ceiling": 0.119904076739
+    },
+    {
+      "sensitivity":         0.414,
+      "carriage":          0.02,
+      "incidence_one_in":          1000,
+      "ppv":        0.0207,
+      "npv": 0.999402040816,
+      "nnt":  2415.4589372,
+      "carrier_risk":        0.0207,
+      "ppv_ceiling":          0.05
+    },
+    {
+      "sensitivity":         0.414,
+      "carriage":          0.02,
+      "incidence_one_in":         10000,
+      "ppv":       0.00207,
+      "npv": 0.999940204082,
+      "nnt":  24154.589372,
+      "carrier_risk":       0.00207,
+      "ppv_ceiling":         0.005
+    },
+    {
+      "sensitivity":         0.414,
+      "carriage":          0.02,
+      "incidence_one_in":        100000,
+      "ppv":      0.000207,
+      "npv": 0.999994020408,
+      "nnt":  241545.89372,
+      "carrier_risk":      0.000207,
+      "ppv_ceiling":        0.0005
+    },
+    {
+      "sensitivity":         0.414,
+      "carriage":          0.06,
+      "incidence_one_in":            37,
+      "ppv": 0.186486486486,
+      "npv": 0.983151236343,
+      "nnt": 89.3719806763,
+      "carrier_risk": 0.186486486486,
+      "ppv_ceiling": 0.45045045045
+    },
+    {
+      "sensitivity":         0.414,
+      "carriage":          0.06,
+      "incidence_one_in":            50,
+      "ppv":         0.138,
+      "npv": 0.987531914894,
+      "nnt":  120.77294686,
+      "carrier_risk":         0.138,
+      "ppv_ceiling": 0.333333333333
+    },
+    {
+      "sensitivity":         0.414,
+      "carriage":          0.06,
+      "incidence_one_in":            68,
+      "ppv": 0.101470588235,
+      "npv": 0.990832290363,
+      "nnt": 164.251207729,
+      "carrier_risk": 0.101470588235,
+      "ppv_ceiling": 0.245098039216
+    },
+    {
+      "sensitivity":         0.414,
+      "carriage":          0.06,
+      "incidence_one_in":           417,
+      "ppv": 0.0165467625899,
+      "npv": 0.998505025767,
+      "nnt": 1007.24637681,
+      "carrier_risk": 0.0165467625899,
+      "ppv_ceiling": 0.0399680255795
+    },
+    {
+      "sensitivity":         0.414,
+      "carriage":          0.06,
+      "incidence_one_in":          1000,
+      "ppv":        0.0069,
+      "npv": 0.999376595745,
+      "nnt":  2415.4589372,
+      "carrier_risk":        0.0069,
+      "ppv_ceiling": 0.0166666666667
+    },
+    {
+      "sensitivity":         0.414,
+      "carriage":          0.06,
+      "incidence_one_in":         10000,
+      "ppv":       0.00069,
+      "npv": 0.999937659574,
+      "nnt":  24154.589372,
+      "carrier_risk":       0.00069,
+      "ppv_ceiling": 0.00166666666667
+    },
+    {
+      "sensitivity":         0.414,
+      "carriage":          0.06,
+      "incidence_one_in":        100000,
+      "ppv":       6.9e-05,
+      "npv": 0.999993765957,
+      "nnt":  241545.89372,
+      "carrier_risk":       6.9e-05,
+      "ppv_ceiling": 0.000166666666667
+    },
+    {
+      "sensitivity":         0.414,
+      "carriage":         0.063,
+      "incidence_one_in":            37,
+      "ppv": 0.177606177606,
+      "npv": 0.983097291528,
+      "nnt": 89.3719806763,
+      "carrier_risk": 0.177606177606,
+      "ppv_ceiling":   0.429000429
+    },
+    {
+      "sensitivity":         0.414,
+      "carriage":         0.063,
+      "incidence_one_in":            50,
+      "ppv": 0.131428571429,
+      "npv": 0.987491995731,
+      "nnt":  120.77294686,
+      "carrier_risk": 0.131428571429,
+      "ppv_ceiling": 0.31746031746
+    },
+    {
+      "sensitivity":         0.414,
+      "carriage":         0.063,
+      "incidence_one_in":            68,
+      "ppv": 0.0966386554622,
+      "npv": 0.990802938038,
+      "nnt": 164.251207729,
+      "carrier_risk": 0.0966386554622,
+      "ppv_ceiling": 0.233426704015
+    },
+    {
+      "sensitivity":         0.414,
+      "carriage":         0.063,
+      "incidence_one_in":           417,
+      "ppv": 0.0157588215142,
+      "npv": 0.998500239296,
+      "nnt": 1007.24637681,
+      "carrier_risk": 0.0157588215142,
+      "ppv_ceiling": 0.0380647862662
+    },
+    {
+      "sensitivity":         0.414,
+      "carriage":         0.063,
+      "incidence_one_in":          1000,
+      "ppv": 0.00657142857143,
+      "npv": 0.999374599787,
+      "nnt":  2415.4589372,
+      "carrier_risk": 0.00657142857143,
+      "ppv_ceiling": 0.015873015873
+    },
+    {
+      "sensitivity":         0.414,
+      "carriage":         0.063,
+      "incidence_one_in":         10000,
+      "ppv": 0.000657142857143,
+      "npv": 0.999937459979,
+      "nnt":  24154.589372,
+      "carrier_risk": 0.000657142857143,
+      "ppv_ceiling": 0.0015873015873
+    },
+    {
+      "sensitivity":         0.414,
+      "carriage":         0.063,
+      "incidence_one_in":        100000,
+      "ppv": 6.57142857143e-05,
+      "npv": 0.999993745998,
+      "nnt":  241545.89372,
+      "carrier_risk": 6.57142857143e-05,
+      "ppv_ceiling": 0.00015873015873
+    },
+    {
+      "sensitivity":         0.414,
+      "carriage":          0.09,
+      "incidence_one_in":            37,
+      "ppv": 0.124324324324,
+      "npv": 0.982595782596,
+      "nnt": 89.3719806763,
+      "carrier_risk": 0.124324324324,
+      "ppv_ceiling":  0.3003003003
+    },
+    {
+      "sensitivity":         0.414,
+      "carriage":          0.09,
+      "incidence_one_in":            50,
+      "ppv":         0.092,
+      "npv": 0.987120879121,
+      "nnt":  120.77294686,
+      "carrier_risk":         0.092,
+      "ppv_ceiling": 0.222222222222
+    },
+    {
+      "sensitivity":         0.414,
+      "carriage":          0.09,
+      "incidence_one_in":            68,
+      "ppv": 0.0676470588235,
+      "npv": 0.990530058177,
+      "nnt": 164.251207729,
+      "carrier_risk": 0.0676470588235,
+      "ppv_ceiling": 0.16339869281
+    },
+    {
+      "sensitivity":         0.414,
+      "carriage":          0.09,
+      "incidence_one_in":           417,
+      "ppv": 0.01103117506,
+      "npv": 0.998455740902,
+      "nnt": 1007.24637681,
+      "carrier_risk": 0.01103117506,
+      "ppv_ceiling": 0.0266453503864
+    },
+    {
+      "sensitivity":         0.414,
+      "carriage":          0.09,
+      "incidence_one_in":          1000,
+      "ppv":        0.0046,
+      "npv": 0.999356043956,
+      "nnt":  2415.4589372,
+      "carrier_risk":        0.0046,
+      "ppv_ceiling": 0.0111111111111
+    },
+    {
+      "sensitivity":         0.414,
+      "carriage":          0.09,
+      "incidence_one_in":         10000,
+      "ppv":       0.00046,
+      "npv": 0.999935604396,
+      "nnt":  24154.589372,
+      "carrier_risk":       0.00046,
+      "ppv_ceiling": 0.00111111111111
+    },
+    {
+      "sensitivity":         0.414,
+      "carriage":          0.09,
+      "incidence_one_in":        100000,
+      "ppv":       4.6e-05,
+      "npv": 0.99999356044,
+      "nnt":  241545.89372,
+      "carrier_risk":       4.6e-05,
+      "ppv_ceiling": 0.000111111111111
+    },
+    {
+      "sensitivity":         0.414,
+      "carriage":         0.168,
+      "incidence_one_in":            37,
+      "ppv": 0.0666023166023,
+      "npv": 0.980964137214,
+      "nnt": 89.3719806763,
+      "carrier_risk": 0.0666023166023,
+      "ppv_ceiling": 0.160875160875
+    },
+    {
+      "sensitivity":         0.414,
+      "carriage":         0.168,
+      "incidence_one_in":            50,
+      "ppv": 0.0492857142857,
+      "npv": 0.985913461538,
+      "nnt":  120.77294686,
+      "carrier_risk": 0.0492857142857,
+      "ppv_ceiling": 0.119047619048
+    },
+    {
+      "sensitivity":         0.414,
+      "carriage":         0.168,
+      "incidence_one_in":            68,
+      "ppv": 0.0362394957983,
+      "npv": 0.989642251131,
+      "nnt": 164.251207729,
+      "carrier_risk": 0.0362394957983,
+      "ppv_ceiling": 0.0875350140056
+    },
+    {
+      "sensitivity":         0.414,
+      "carriage":         0.168,
+      "incidence_one_in":           417,
+      "ppv": 0.00590955806783,
+      "npv": 0.998310966611,
+      "nnt": 1007.24637681,
+      "carrier_risk": 0.00590955806783,
+      "ppv_ceiling": 0.0142742948498
+    },
+    {
+      "sensitivity":         0.414,
+      "carriage":         0.168,
+      "incidence_one_in":          1000,
+      "ppv": 0.00246428571429,
+      "npv": 0.999295673077,
+      "nnt":  2415.4589372,
+      "carrier_risk": 0.00246428571429,
+      "ppv_ceiling": 0.00595238095238
+    },
+    {
+      "sensitivity":         0.414,
+      "carriage":         0.168,
+      "incidence_one_in":         10000,
+      "ppv": 0.000246428571429,
+      "npv": 0.999929567308,
+      "nnt":  24154.589372,
+      "carrier_risk": 0.000246428571429,
+      "ppv_ceiling": 0.000595238095238
+    },
+    {
+      "sensitivity":         0.414,
+      "carriage":         0.168,
+      "incidence_one_in":        100000,
+      "ppv": 2.46428571429e-05,
+      "npv": 0.999992956731,
+      "nnt":  241545.89372,
+      "carrier_risk": 2.46428571429e-05,
+      "ppv_ceiling": 5.95238095238e-05
+    },
+    {
+      "sensitivity":           0.5,
+      "carriage":          0.02,
+      "incidence_one_in":            37,
+      "ppv": 0.675675675676,
+      "npv": 0.986210700496,
+      "nnt":            74,
+      "carrier_risk": 0.675675675676,
+      "ppv_ceiling":             1
+    },
+    {
+      "sensitivity":           0.5,
+      "carriage":          0.02,
+      "incidence_one_in":            50,
+      "ppv":           0.5,
+      "npv": 0.989795918367,
+      "nnt":           100,
+      "carrier_risk":           0.5,
+      "ppv_ceiling":             1
+    },
+    {
+      "sensitivity":           0.5,
+      "carriage":          0.02,
+      "incidence_one_in":            68,
+      "ppv": 0.367647058824,
+      "npv":  0.9924969988,
+      "nnt":           136,
+      "carrier_risk": 0.367647058824,
+      "ppv_ceiling": 0.735294117647
+    },
+    {
+      "sensitivity":           0.5,
+      "carriage":          0.02,
+      "incidence_one_in":           417,
+      "ppv": 0.0599520383693,
+      "npv": 0.998776489013,
+      "nnt":           834,
+      "carrier_risk": 0.0599520383693,
+      "ppv_ceiling": 0.119904076739
+    },
+    {
+      "sensitivity":           0.5,
+      "carriage":          0.02,
+      "incidence_one_in":          1000,
+      "ppv":         0.025,
+      "npv": 0.999489795918,
+      "nnt":          2000,
+      "carrier_risk":         0.025,
+      "ppv_ceiling":          0.05
+    },
+    {
+      "sensitivity":           0.5,
+      "carriage":          0.02,
+      "incidence_one_in":         10000,
+      "ppv":        0.0025,
+      "npv": 0.999948979592,
+      "nnt":         20000,
+      "carrier_risk":        0.0025,
+      "ppv_ceiling":         0.005
+    },
+    {
+      "sensitivity":           0.5,
+      "carriage":          0.02,
+      "incidence_one_in":        100000,
+      "ppv":       0.00025,
+      "npv": 0.999994897959,
+      "nnt":        200000,
+      "carrier_risk":       0.00025,
+      "ppv_ceiling":        0.0005
+    },
+    {
+      "sensitivity":           0.5,
+      "carriage":          0.06,
+      "incidence_one_in":            37,
+      "ppv": 0.225225225225,
+      "npv": 0.985623921794,
+      "nnt":            74,
+      "carrier_risk": 0.225225225225,
+      "ppv_ceiling": 0.45045045045
+    },
+    {
+      "sensitivity":           0.5,
+      "carriage":          0.06,
+      "incidence_one_in":            50,
+      "ppv": 0.166666666667,
+      "npv": 0.989361702128,
+      "nnt":           100,
+      "carrier_risk": 0.166666666667,
+      "ppv_ceiling": 0.333333333333
+    },
+    {
+      "sensitivity":           0.5,
+      "carriage":          0.06,
+      "incidence_one_in":            68,
+      "ppv": 0.122549019608,
+      "npv": 0.992177722153,
+      "nnt":           136,
+      "carrier_risk": 0.122549019608,
+      "ppv_ceiling": 0.245098039216
+    },
+    {
+      "sensitivity":           0.5,
+      "carriage":          0.06,
+      "incidence_one_in":           417,
+      "ppv": 0.0199840127898,
+      "npv": 0.998724424716,
+      "nnt":           834,
+      "carrier_risk": 0.0199840127898,
+      "ppv_ceiling": 0.0399680255795
+    },
+    {
+      "sensitivity":           0.5,
+      "carriage":          0.06,
+      "incidence_one_in":          1000,
+      "ppv": 0.00833333333333,
+      "npv": 0.999468085106,
+      "nnt":          2000,
+      "carrier_risk": 0.00833333333333,
+      "ppv_ceiling": 0.0166666666667
+    },
+    {
+      "sensitivity":           0.5,
+      "carriage":          0.06,
+      "incidence_one_in":         10000,
+      "ppv": 0.000833333333333,
+      "npv": 0.999946808511,
+      "nnt":         20000,
+      "carrier_risk": 0.000833333333333,
+      "ppv_ceiling": 0.00166666666667
+    },
+    {
+      "sensitivity":           0.5,
+      "carriage":          0.06,
+      "incidence_one_in":        100000,
+      "ppv": 8.33333333333e-05,
+      "npv": 0.999994680851,
+      "nnt":        200000,
+      "carrier_risk": 8.33333333333e-05,
+      "ppv_ceiling": 0.000166666666667
+    },
+    {
+      "sensitivity":           0.5,
+      "carriage":         0.063,
+      "incidence_one_in":            37,
+      "ppv":  0.2145002145,
+      "npv": 0.985577893796,
+      "nnt":            74,
+      "carrier_risk":  0.2145002145,
+      "ppv_ceiling":   0.429000429
+    },
+    {
+      "sensitivity":           0.5,
+      "carriage":         0.063,
+      "incidence_one_in":            50,
+      "ppv": 0.15873015873,
+      "npv": 0.989327641409,
+      "nnt":           100,
+      "carrier_risk": 0.15873015873,
+      "ppv_ceiling": 0.31746031746
+    },
+    {
+      "sensitivity":           0.5,
+      "carriage":         0.063,
+      "incidence_one_in":            68,
+      "ppv": 0.116713352007,
+      "npv": 0.992152677506,
+      "nnt":           136,
+      "carrier_risk": 0.116713352007,
+      "ppv_ceiling": 0.233426704015
+    },
+    {
+      "sensitivity":           0.5,
+      "carriage":         0.063,
+      "incidence_one_in":           417,
+      "ppv": 0.0190323931331,
+      "npv": 0.998720340696,
+      "nnt":           834,
+      "carrier_risk": 0.0190323931331,
+      "ppv_ceiling": 0.0380647862662
+    },
+    {
+      "sensitivity":           0.5,
+      "carriage":         0.063,
+      "incidence_one_in":          1000,
+      "ppv": 0.00793650793651,
+      "npv": 0.99946638207,
+      "nnt":          2000,
+      "carrier_risk": 0.00793650793651,
+      "ppv_ceiling": 0.015873015873
+    },
+    {
+      "sensitivity":           0.5,
+      "carriage":         0.063,
+      "incidence_one_in":         10000,
+      "ppv": 0.000793650793651,
+      "npv": 0.999946638207,
+      "nnt":         20000,
+      "carrier_risk": 0.000793650793651,
+      "ppv_ceiling": 0.0015873015873
+    },
+    {
+      "sensitivity":           0.5,
+      "carriage":         0.063,
+      "incidence_one_in":        100000,
+      "ppv": 7.93650793651e-05,
+      "npv": 0.999994663821,
+      "nnt":        200000,
+      "carrier_risk": 7.93650793651e-05,
+      "ppv_ceiling": 0.00015873015873
+    },
+    {
+      "sensitivity":           0.5,
+      "carriage":          0.09,
+      "incidence_one_in":            37,
+      "ppv": 0.15015015015,
+      "npv": 0.98514998515,
+      "nnt":            74,
+      "carrier_risk": 0.15015015015,
+      "ppv_ceiling":  0.3003003003
+    },
+    {
+      "sensitivity":           0.5,
+      "carriage":          0.09,
+      "incidence_one_in":            50,
+      "ppv": 0.111111111111,
+      "npv": 0.989010989011,
+      "nnt":           100,
+      "carrier_risk": 0.111111111111,
+      "ppv_ceiling": 0.222222222222
+    },
+    {
+      "sensitivity":           0.5,
+      "carriage":          0.09,
+      "incidence_one_in":            68,
+      "ppv": 0.0816993464052,
+      "npv": 0.991919844861,
+      "nnt":           136,
+      "carrier_risk": 0.0816993464052,
+      "ppv_ceiling": 0.16339869281
+    },
+    {
+      "sensitivity":           0.5,
+      "carriage":          0.09,
+      "incidence_one_in":           417,
+      "ppv": 0.0133226751932,
+      "npv": 0.998682372783,
+      "nnt":           834,
+      "carrier_risk": 0.0133226751932,
+      "ppv_ceiling": 0.0266453503864
+    },
+    {
+      "sensitivity":           0.5,
+      "carriage":          0.09,
+      "incidence_one_in":          1000,
+      "ppv": 0.00555555555556,
+      "npv": 0.999450549451,
+      "nnt":          2000,
+      "carrier_risk": 0.00555555555556,
+      "ppv_ceiling": 0.0111111111111
+    },
+    {
+      "sensitivity":           0.5,
+      "carriage":          0.09,
+      "incidence_one_in":         10000,
+      "ppv": 0.000555555555556,
+      "npv": 0.999945054945,
+      "nnt":         20000,
+      "carrier_risk": 0.000555555555556,
+      "ppv_ceiling": 0.00111111111111
+    },
+    {
+      "sensitivity":           0.5,
+      "carriage":          0.09,
+      "incidence_one_in":        100000,
+      "ppv": 5.55555555556e-05,
+      "npv": 0.999994505495,
+      "nnt":        200000,
+      "carrier_risk": 5.55555555556e-05,
+      "ppv_ceiling": 0.000111111111111
+    },
+    {
+      "sensitivity":           0.5,
+      "carriage":         0.168,
+      "incidence_one_in":            37,
+      "ppv": 0.0804375804376,
+      "npv": 0.983757796258,
+      "nnt":            74,
+      "carrier_risk": 0.0804375804376,
+      "ppv_ceiling": 0.160875160875
+    },
+    {
+      "sensitivity":           0.5,
+      "carriage":         0.168,
+      "incidence_one_in":            50,
+      "ppv": 0.0595238095238,
+      "npv": 0.987980769231,
+      "nnt":           100,
+      "carrier_risk": 0.0595238095238,
+      "ppv_ceiling": 0.119047619048
+    },
+    {
+      "sensitivity":           0.5,
+      "carriage":         0.168,
+      "incidence_one_in":            68,
+      "ppv": 0.0437675070028,
+      "npv": 0.991162330317,
+      "nnt":           136,
+      "carrier_risk": 0.0437675070028,
+      "ppv_ceiling": 0.0875350140056
+    },
+    {
+      "sensitivity":           0.5,
+      "carriage":         0.168,
+      "incidence_one_in":           417,
+      "ppv": 0.00713714742492,
+      "npv": 0.998558845232,
+      "nnt":           834,
+      "carrier_risk": 0.00713714742492,
+      "ppv_ceiling": 0.0142742948498
+    },
+    {
+      "sensitivity":           0.5,
+      "carriage":         0.168,
+      "incidence_one_in":          1000,
+      "ppv": 0.00297619047619,
+      "npv": 0.999399038462,
+      "nnt":          2000,
+      "carrier_risk": 0.00297619047619,
+      "ppv_ceiling": 0.00595238095238
+    },
+    {
+      "sensitivity":           0.5,
+      "carriage":         0.168,
+      "incidence_one_in":         10000,
+      "ppv": 0.000297619047619,
+      "npv": 0.999939903846,
+      "nnt":         20000,
+      "carrier_risk": 0.000297619047619,
+      "ppv_ceiling": 0.000595238095238
+    },
+    {
+      "sensitivity":           0.5,
+      "carriage":         0.168,
+      "incidence_one_in":        100000,
+      "ppv": 2.97619047619e-05,
+      "npv": 0.999993990385,
+      "nnt":        200000,
+      "carrier_risk": 2.97619047619e-05,
+      "ppv_ceiling": 5.95238095238e-05
+    },
+    {
+      "sensitivity":         0.826,
+      "carriage":          0.02,
+      "incidence_one_in":            37,
+      "ppv":             1,
+      "npv": 0.995201323773,
+      "nnt":  44.794188862,
+      "carrier_risk":             1,
+      "ppv_ceiling":             1
+    },
+    {
+      "sensitivity":         0.826,
+      "carriage":          0.02,
+      "incidence_one_in":            50,
+      "ppv":         0.826,
+      "npv": 0.996448979592,
+      "nnt": 60.5326876513,
+      "carrier_risk":         0.826,
+      "ppv_ceiling":             1
+    },
+    {
+      "sensitivity":         0.826,
+      "carriage":          0.02,
+      "incidence_one_in":            68,
+      "ppv": 0.607352941176,
+      "npv": 0.997388955582,
+      "nnt": 82.3244552058,
+      "carrier_risk": 0.607352941176,
+      "ppv_ceiling": 0.735294117647
+    },
+    {
+      "sensitivity":         0.826,
+      "carriage":          0.02,
+      "incidence_one_in":           417,
+      "ppv": 0.0990407673861,
+      "npv": 0.999574218176,
+      "nnt": 504.842615012,
+      "carrier_risk": 0.0990407673861,
+      "ppv_ceiling": 0.119904076739
+    },
+    {
+      "sensitivity":         0.826,
+      "carriage":          0.02,
+      "incidence_one_in":          1000,
+      "ppv":        0.0413,
+      "npv": 0.99982244898,
+      "nnt": 1210.65375303,
+      "carrier_risk":        0.0413,
+      "ppv_ceiling":          0.05
+    },
+    {
+      "sensitivity":         0.826,
+      "carriage":          0.02,
+      "incidence_one_in":         10000,
+      "ppv":       0.00413,
+      "npv": 0.999982244898,
+      "nnt": 12106.5375303,
+      "carrier_risk":       0.00413,
+      "ppv_ceiling":         0.005
+    },
+    {
+      "sensitivity":         0.826,
+      "carriage":          0.02,
+      "incidence_one_in":        100000,
+      "ppv":      0.000413,
+      "npv": 0.99999822449,
+      "nnt": 121065.375303,
+      "carrier_risk":      0.000413,
+      "ppv_ceiling":        0.0005
+    },
+    {
+      "sensitivity":         0.826,
+      "carriage":          0.06,
+      "incidence_one_in":            37,
+      "ppv": 0.372072072072,
+      "npv": 0.994997124784,
+      "nnt":  44.794188862,
+      "carrier_risk": 0.372072072072,
+      "ppv_ceiling": 0.45045045045
+    },
+    {
+      "sensitivity":         0.826,
+      "carriage":          0.06,
+      "incidence_one_in":            50,
+      "ppv": 0.275333333333,
+      "npv": 0.99629787234,
+      "nnt": 60.5326876513,
+      "carrier_risk": 0.275333333333,
+      "ppv_ceiling": 0.333333333333
+    },
+    {
+      "sensitivity":         0.826,
+      "carriage":          0.06,
+      "incidence_one_in":            68,
+      "ppv": 0.202450980392,
+      "npv": 0.997277847309,
+      "nnt": 82.3244552058,
+      "carrier_risk": 0.202450980392,
+      "ppv_ceiling": 0.245098039216
+    },
+    {
+      "sensitivity":         0.826,
+      "carriage":          0.06,
+      "incidence_one_in":           417,
+      "ppv": 0.0330135891287,
+      "npv": 0.999556099801,
+      "nnt": 504.842615012,
+      "carrier_risk": 0.0330135891287,
+      "ppv_ceiling": 0.0399680255795
+    },
+    {
+      "sensitivity":         0.826,
+      "carriage":          0.06,
+      "incidence_one_in":          1000,
+      "ppv": 0.0137666666667,
+      "npv": 0.999814893617,
+      "nnt": 1210.65375303,
+      "carrier_risk": 0.0137666666667,
+      "ppv_ceiling": 0.0166666666667
+    },
+    {
+      "sensitivity":         0.826,
+      "carriage":          0.06,
+      "incidence_one_in":         10000,
+      "ppv": 0.00137666666667,
+      "npv": 0.999981489362,
+      "nnt": 12106.5375303,
+      "carrier_risk": 0.00137666666667,
+      "ppv_ceiling": 0.00166666666667
+    },
+    {
+      "sensitivity":         0.826,
+      "carriage":          0.06,
+      "incidence_one_in":        100000,
+      "ppv": 0.000137666666667,
+      "npv": 0.999998148936,
+      "nnt": 121065.375303,
+      "carrier_risk": 0.000137666666667,
+      "ppv_ceiling": 0.000166666666667
+    },
+    {
+      "sensitivity":         0.826,
+      "carriage":         0.063,
+      "incidence_one_in":            37,
+      "ppv": 0.354354354354,
+      "npv": 0.994981107041,
+      "nnt":  44.794188862,
+      "carrier_risk": 0.354354354354,
+      "ppv_ceiling":   0.429000429
+    },
+    {
+      "sensitivity":         0.826,
+      "carriage":         0.063,
+      "incidence_one_in":            50,
+      "ppv": 0.262222222222,
+      "npv": 0.99628601921,
+      "nnt": 60.5326876513,
+      "carrier_risk": 0.262222222222,
+      "ppv_ceiling": 0.31746031746
+    },
+    {
+      "sensitivity":         0.826,
+      "carriage":         0.063,
+      "incidence_one_in":            68,
+      "ppv": 0.192810457516,
+      "npv": 0.997269131772,
+      "nnt": 82.3244552058,
+      "carrier_risk": 0.192810457516,
+      "ppv_ceiling": 0.233426704015
+    },
+    {
+      "sensitivity":         0.826,
+      "carriage":         0.063,
+      "incidence_one_in":           417,
+      "ppv": 0.0314415134559,
+      "npv": 0.999554678562,
+      "nnt": 504.842615012,
+      "carrier_risk": 0.0314415134559,
+      "ppv_ceiling": 0.0380647862662
+    },
+    {
+      "sensitivity":         0.826,
+      "carriage":         0.063,
+      "incidence_one_in":          1000,
+      "ppv": 0.0131111111111,
+      "npv": 0.999814300961,
+      "nnt": 1210.65375303,
+      "carrier_risk": 0.0131111111111,
+      "ppv_ceiling": 0.015873015873
+    },
+    {
+      "sensitivity":         0.826,
+      "carriage":         0.063,
+      "incidence_one_in":         10000,
+      "ppv": 0.00131111111111,
+      "npv": 0.999981430096,
+      "nnt": 12106.5375303,
+      "carrier_risk": 0.00131111111111,
+      "ppv_ceiling": 0.0015873015873
+    },
+    {
+      "sensitivity":         0.826,
+      "carriage":         0.063,
+      "incidence_one_in":        100000,
+      "ppv": 0.000131111111111,
+      "npv": 0.99999814301,
+      "nnt": 121065.375303,
+      "carrier_risk": 0.000131111111111,
+      "ppv_ceiling": 0.00015873015873
+    },
+    {
+      "sensitivity":         0.826,
+      "carriage":          0.09,
+      "incidence_one_in":            37,
+      "ppv": 0.248048048048,
+      "npv": 0.994832194832,
+      "nnt":  44.794188862,
+      "carrier_risk": 0.248048048048,
+      "ppv_ceiling":  0.3003003003
+    },
+    {
+      "sensitivity":         0.826,
+      "carriage":          0.09,
+      "incidence_one_in":            50,
+      "ppv": 0.183555555556,
+      "npv": 0.996175824176,
+      "nnt": 60.5326876513,
+      "carrier_risk": 0.183555555556,
+      "ppv_ceiling": 0.222222222222
+    },
+    {
+      "sensitivity":         0.826,
+      "carriage":          0.09,
+      "incidence_one_in":            68,
+      "ppv": 0.134967320261,
+      "npv": 0.997188106012,
+      "nnt": 82.3244552058,
+      "carrier_risk": 0.134967320261,
+      "ppv_ceiling": 0.16339869281
+    },
+    {
+      "sensitivity":         0.826,
+      "carriage":          0.09,
+      "incidence_one_in":           417,
+      "ppv": 0.0220090594191,
+      "npv": 0.999541465729,
+      "nnt": 504.842615012,
+      "carrier_risk": 0.0220090594191,
+      "ppv_ceiling": 0.0266453503864
+    },
+    {
+      "sensitivity":         0.826,
+      "carriage":          0.09,
+      "incidence_one_in":          1000,
+      "ppv": 0.00917777777778,
+      "npv": 0.999808791209,
+      "nnt": 1210.65375303,
+      "carrier_risk": 0.00917777777778,
+      "ppv_ceiling": 0.0111111111111
+    },
+    {
+      "sensitivity":         0.826,
+      "carriage":          0.09,
+      "incidence_one_in":         10000,
+      "ppv": 0.000917777777778,
+      "npv": 0.999980879121,
+      "nnt": 12106.5375303,
+      "carrier_risk": 0.000917777777778,
+      "ppv_ceiling": 0.00111111111111
+    },
+    {
+      "sensitivity":         0.826,
+      "carriage":          0.09,
+      "incidence_one_in":        100000,
+      "ppv": 9.17777777778e-05,
+      "npv": 0.999998087912,
+      "nnt": 121065.375303,
+      "carrier_risk": 9.17777777778e-05,
+      "ppv_ceiling": 0.000111111111111
+    },
+    {
+      "sensitivity":         0.826,
+      "carriage":         0.168,
+      "incidence_one_in":            37,
+      "ppv": 0.132882882883,
+      "npv": 0.994347713098,
+      "nnt":  44.794188862,
+      "carrier_risk": 0.132882882883,
+      "ppv_ceiling": 0.160875160875
+    },
+    {
+      "sensitivity":         0.826,
+      "carriage":         0.168,
+      "incidence_one_in":            50,
+      "ppv": 0.0983333333333,
+      "npv": 0.995817307692,
+      "nnt": 60.5326876513,
+      "carrier_risk": 0.0983333333333,
+      "ppv_ceiling": 0.119047619048
+    },
+    {
+      "sensitivity":         0.826,
+      "carriage":         0.168,
+      "incidence_one_in":            68,
+      "ppv": 0.0723039215686,
+      "npv": 0.99692449095,
+      "nnt": 82.3244552058,
+      "carrier_risk": 0.0723039215686,
+      "ppv_ceiling": 0.0875350140056
+    },
+    {
+      "sensitivity":         0.826,
+      "carriage":         0.168,
+      "incidence_one_in":           417,
+      "ppv": 0.011790567546,
+      "npv": 0.999498478141,
+      "nnt": 504.842615012,
+      "carrier_risk": 0.011790567546,
+      "ppv_ceiling": 0.0142742948498
+    },
+    {
+      "sensitivity":         0.826,
+      "carriage":         0.168,
+      "incidence_one_in":          1000,
+      "ppv": 0.00491666666667,
+      "npv": 0.999790865385,
+      "nnt": 1210.65375303,
+      "carrier_risk": 0.00491666666667,
+      "ppv_ceiling": 0.00595238095238
+    },
+    {
+      "sensitivity":         0.826,
+      "carriage":         0.168,
+      "incidence_one_in":         10000,
+      "ppv": 0.000491666666667,
+      "npv": 0.999979086538,
+      "nnt": 12106.5375303,
+      "carrier_risk": 0.000491666666667,
+      "ppv_ceiling": 0.000595238095238
+    },
+    {
+      "sensitivity":         0.826,
+      "carriage":         0.168,
+      "incidence_one_in":        100000,
+      "ppv": 4.91666666667e-05,
+      "npv": 0.999997908654,
+      "nnt": 121065.375303,
+      "carrier_risk": 4.91666666667e-05,
+      "ppv_ceiling": 5.95238095238e-05
+    },
+    {
+      "sensitivity":          0.98,
+      "carriage":          0.02,
+      "incidence_one_in":            37,
+      "ppv":             1,
+      "npv": 0.99944842802,
+      "nnt": 37.7551020408,
+      "carrier_risk":             1,
+      "ppv_ceiling":             1
+    },
+    {
+      "sensitivity":          0.98,
+      "carriage":          0.02,
+      "incidence_one_in":            50,
+      "ppv":          0.98,
+      "npv": 0.999591836735,
+      "nnt": 51.0204081633,
+      "carrier_risk":          0.98,
+      "ppv_ceiling":             1
+    },
+    {
+      "sensitivity":          0.98,
+      "carriage":          0.02,
+      "incidence_one_in":            68,
+      "ppv": 0.720588235294,
+      "npv": 0.999699879952,
+      "nnt":  69.387755102,
+      "carrier_risk": 0.720588235294,
+      "ppv_ceiling": 0.735294117647
+    },
+    {
+      "sensitivity":          0.98,
+      "carriage":          0.02,
+      "incidence_one_in":           417,
+      "ppv": 0.117505995204,
+      "npv": 0.999951059561,
+      "nnt": 425.510204082,
+      "carrier_risk": 0.117505995204,
+      "ppv_ceiling": 0.119904076739
+    },
+    {
+      "sensitivity":          0.98,
+      "carriage":          0.02,
+      "incidence_one_in":          1000,
+      "ppv":         0.049,
+      "npv": 0.999979591837,
+      "nnt": 1020.40816327,
+      "carrier_risk":         0.049,
+      "ppv_ceiling":          0.05
+    },
+    {
+      "sensitivity":          0.98,
+      "carriage":          0.02,
+      "incidence_one_in":         10000,
+      "ppv":        0.0049,
+      "npv": 0.999997959184,
+      "nnt": 10204.0816327,
+      "carrier_risk":        0.0049,
+      "ppv_ceiling":         0.005
+    },
+    {
+      "sensitivity":          0.98,
+      "carriage":          0.02,
+      "incidence_one_in":        100000,
+      "ppv":       0.00049,
+      "npv": 0.999999795918,
+      "nnt": 102040.816327,
+      "carrier_risk":       0.00049,
+      "ppv_ceiling":        0.0005
+    },
+    {
+      "sensitivity":          0.98,
+      "carriage":          0.06,
+      "incidence_one_in":            37,
+      "ppv": 0.441441441441,
+      "npv": 0.999424956872,
+      "nnt": 37.7551020408,
+      "carrier_risk": 0.441441441441,
+      "ppv_ceiling": 0.45045045045
+    },
+    {
+      "sensitivity":          0.98,
+      "carriage":          0.06,
+      "incidence_one_in":            50,
+      "ppv": 0.326666666667,
+      "npv": 0.999574468085,
+      "nnt": 51.0204081633,
+      "carrier_risk": 0.326666666667,
+      "ppv_ceiling": 0.333333333333
+    },
+    {
+      "sensitivity":          0.98,
+      "carriage":          0.06,
+      "incidence_one_in":            68,
+      "ppv": 0.240196078431,
+      "npv": 0.999687108886,
+      "nnt":  69.387755102,
+      "carrier_risk": 0.240196078431,
+      "ppv_ceiling": 0.245098039216
+    },
+    {
+      "sensitivity":          0.98,
+      "carriage":          0.06,
+      "incidence_one_in":           417,
+      "ppv": 0.0391686650679,
+      "npv": 0.999948976989,
+      "nnt": 425.510204082,
+      "carrier_risk": 0.0391686650679,
+      "ppv_ceiling": 0.0399680255795
+    },
+    {
+      "sensitivity":          0.98,
+      "carriage":          0.06,
+      "incidence_one_in":          1000,
+      "ppv": 0.0163333333333,
+      "npv": 0.999978723404,
+      "nnt": 1020.40816327,
+      "carrier_risk": 0.0163333333333,
+      "ppv_ceiling": 0.0166666666667
+    },
+    {
+      "sensitivity":          0.98,
+      "carriage":          0.06,
+      "incidence_one_in":         10000,
+      "ppv": 0.00163333333333,
+      "npv": 0.99999787234,
+      "nnt": 10204.0816327,
+      "carrier_risk": 0.00163333333333,
+      "ppv_ceiling": 0.00166666666667
+    },
+    {
+      "sensitivity":          0.98,
+      "carriage":          0.06,
+      "incidence_one_in":        100000,
+      "ppv": 0.000163333333333,
+      "npv": 0.999999787234,
+      "nnt": 102040.816327,
+      "carrier_risk": 0.000163333333333,
+      "ppv_ceiling": 0.000166666666667
+    },
+    {
+      "sensitivity":          0.98,
+      "carriage":         0.063,
+      "incidence_one_in":            37,
+      "ppv": 0.42042042042,
+      "npv": 0.999423115752,
+      "nnt": 37.7551020408,
+      "carrier_risk": 0.42042042042,
+      "ppv_ceiling":   0.429000429
+    },
+    {
+      "sensitivity":          0.98,
+      "carriage":         0.063,
+      "incidence_one_in":            50,
+      "ppv": 0.311111111111,
+      "npv": 0.999573105656,
+      "nnt": 51.0204081633,
+      "carrier_risk": 0.311111111111,
+      "ppv_ceiling": 0.31746031746
+    },
+    {
+      "sensitivity":          0.98,
+      "carriage":         0.063,
+      "incidence_one_in":            68,
+      "ppv": 0.228758169935,
+      "npv":  0.9996861071,
+      "nnt":  69.387755102,
+      "carrier_risk": 0.228758169935,
+      "ppv_ceiling": 0.233426704015
+    },
+    {
+      "sensitivity":          0.98,
+      "carriage":         0.063,
+      "incidence_one_in":           417,
+      "ppv": 0.0373034905409,
+      "npv": 0.999948813628,
+      "nnt": 425.510204082,
+      "carrier_risk": 0.0373034905409,
+      "ppv_ceiling": 0.0380647862662
+    },
+    {
+      "sensitivity":          0.98,
+      "carriage":         0.063,
+      "incidence_one_in":          1000,
+      "ppv": 0.0155555555556,
+      "npv": 0.999978655283,
+      "nnt": 1020.40816327,
+      "carrier_risk": 0.0155555555556,
+      "ppv_ceiling": 0.015873015873
+    },
+    {
+      "sensitivity":          0.98,
+      "carriage":         0.063,
+      "incidence_one_in":         10000,
+      "ppv": 0.00155555555556,
+      "npv": 0.999997865528,
+      "nnt": 10204.0816327,
+      "carrier_risk": 0.00155555555556,
+      "ppv_ceiling": 0.0015873015873
+    },
+    {
+      "sensitivity":          0.98,
+      "carriage":         0.063,
+      "incidence_one_in":        100000,
+      "ppv": 0.000155555555556,
+      "npv": 0.999999786553,
+      "nnt": 102040.816327,
+      "carrier_risk": 0.000155555555556,
+      "ppv_ceiling": 0.00015873015873
+    },
+    {
+      "sensitivity":          0.98,
+      "carriage":          0.09,
+      "incidence_one_in":            37,
+      "ppv": 0.294294294294,
+      "npv": 0.999405999406,
+      "nnt": 37.7551020408,
+      "carrier_risk": 0.294294294294,
+      "ppv_ceiling":  0.3003003003
+    },
+    {
+      "sensitivity":          0.98,
+      "carriage":          0.09,
+      "incidence_one_in":            50,
+      "ppv": 0.217777777778,
+      "npv": 0.99956043956,
+      "nnt": 51.0204081633,
+      "carrier_risk": 0.217777777778,
+      "ppv_ceiling": 0.222222222222
+    },
+    {
+      "sensitivity":          0.98,
+      "carriage":          0.09,
+      "incidence_one_in":            68,
+      "ppv": 0.160130718954,
+      "npv": 0.999676793794,
+      "nnt":  69.387755102,
+      "carrier_risk": 0.160130718954,
+      "ppv_ceiling": 0.16339869281
+    },
+    {
+      "sensitivity":          0.98,
+      "carriage":          0.09,
+      "incidence_one_in":           417,
+      "ppv": 0.0261124433786,
+      "npv": 0.999947294911,
+      "nnt": 425.510204082,
+      "carrier_risk": 0.0261124433786,
+      "ppv_ceiling": 0.0266453503864
+    },
+    {
+      "sensitivity":          0.98,
+      "carriage":          0.09,
+      "incidence_one_in":          1000,
+      "ppv": 0.0108888888889,
+      "npv": 0.999978021978,
+      "nnt": 1020.40816327,
+      "carrier_risk": 0.0108888888889,
+      "ppv_ceiling": 0.0111111111111
+    },
+    {
+      "sensitivity":          0.98,
+      "carriage":          0.09,
+      "incidence_one_in":         10000,
+      "ppv": 0.00108888888889,
+      "npv": 0.999997802198,
+      "nnt": 10204.0816327,
+      "carrier_risk": 0.00108888888889,
+      "ppv_ceiling": 0.00111111111111
+    },
+    {
+      "sensitivity":          0.98,
+      "carriage":          0.09,
+      "incidence_one_in":        100000,
+      "ppv": 0.000108888888889,
+      "npv": 0.99999978022,
+      "nnt": 102040.816327,
+      "carrier_risk": 0.000108888888889,
+      "ppv_ceiling": 0.000111111111111
+    },
+    {
+      "sensitivity":          0.98,
+      "carriage":         0.168,
+      "incidence_one_in":            37,
+      "ppv": 0.157657657658,
+      "npv": 0.99935031185,
+      "nnt": 37.7551020408,
+      "carrier_risk": 0.157657657658,
+      "ppv_ceiling": 0.160875160875
+    },
+    {
+      "sensitivity":          0.98,
+      "carriage":         0.168,
+      "incidence_one_in":            50,
+      "ppv": 0.116666666667,
+      "npv": 0.999519230769,
+      "nnt": 51.0204081633,
+      "carrier_risk": 0.116666666667,
+      "ppv_ceiling": 0.119047619048
+    },
+    {
+      "sensitivity":          0.98,
+      "carriage":         0.168,
+      "incidence_one_in":            68,
+      "ppv": 0.0857843137255,
+      "npv": 0.999646493213,
+      "nnt":  69.387755102,
+      "carrier_risk": 0.0857843137255,
+      "ppv_ceiling": 0.0875350140056
+    },
+    {
+      "sensitivity":          0.98,
+      "carriage":         0.168,
+      "incidence_one_in":           417,
+      "ppv": 0.0139888089528,
+      "npv": 0.999942353809,
+      "nnt": 425.510204082,
+      "carrier_risk": 0.0139888089528,
+      "ppv_ceiling": 0.0142742948498
+    },
+    {
+      "sensitivity":          0.98,
+      "carriage":         0.168,
+      "incidence_one_in":          1000,
+      "ppv": 0.00583333333333,
+      "npv": 0.999975961538,
+      "nnt": 1020.40816327,
+      "carrier_risk": 0.00583333333333,
+      "ppv_ceiling": 0.00595238095238
+    },
+    {
+      "sensitivity":          0.98,
+      "carriage":         0.168,
+      "incidence_one_in":         10000,
+      "ppv": 0.000583333333333,
+      "npv": 0.999997596154,
+      "nnt": 10204.0816327,
+      "carrier_risk": 0.000583333333333,
+      "ppv_ceiling": 0.000595238095238
+    },
+    {
+      "sensitivity":          0.98,
+      "carriage":         0.168,
+      "incidence_one_in":        100000,
+      "ppv": 5.83333333333e-05,
+      "npv": 0.999999759615,
+      "nnt": 102040.816327,
+      "carrier_risk": 5.83333333333e-05,
+      "ppv_ceiling": 5.95238095238e-05
+    },
+    {
+      "sensitivity":             1,
+      "carriage":          0.02,
+      "incidence_one_in":            37,
+      "ppv":             1,
+      "npv":             1,
+      "nnt":            37,
+      "carrier_risk":             1,
+      "ppv_ceiling":             1
+    },
+    {
+      "sensitivity":             1,
+      "carriage":          0.02,
+      "incidence_one_in":            50,
+      "ppv":             1,
+      "npv":             1,
+      "nnt":            50,
+      "carrier_risk":             1,
+      "ppv_ceiling":             1
+    },
+    {
+      "sensitivity":             1,
+      "carriage":          0.02,
+      "incidence_one_in":            68,
+      "ppv": 0.735294117647,
+      "npv":             1,
+      "nnt":            68,
+      "carrier_risk": 0.735294117647,
+      "ppv_ceiling": 0.735294117647
+    },
+    {
+      "sensitivity":             1,
+      "carriage":          0.02,
+      "incidence_one_in":           417,
+      "ppv": 0.119904076739,
+      "npv":             1,
+      "nnt":           417,
+      "carrier_risk": 0.119904076739,
+      "ppv_ceiling": 0.119904076739
+    },
+    {
+      "sensitivity":             1,
+      "carriage":          0.02,
+      "incidence_one_in":          1000,
+      "ppv":          0.05,
+      "npv":             1,
+      "nnt":          1000,
+      "carrier_risk":          0.05,
+      "ppv_ceiling":          0.05
+    },
+    {
+      "sensitivity":             1,
+      "carriage":          0.02,
+      "incidence_one_in":         10000,
+      "ppv":         0.005,
+      "npv":             1,
+      "nnt":         10000,
+      "carrier_risk":         0.005,
+      "ppv_ceiling":         0.005
+    },
+    {
+      "sensitivity":             1,
+      "carriage":          0.02,
+      "incidence_one_in":        100000,
+      "ppv":        0.0005,
+      "npv":             1,
+      "nnt":        100000,
+      "carrier_risk":        0.0005,
+      "ppv_ceiling":        0.0005
+    },
+    {
+      "sensitivity":             1,
+      "carriage":          0.06,
+      "incidence_one_in":            37,
+      "ppv": 0.45045045045,
+      "npv":             1,
+      "nnt":            37,
+      "carrier_risk": 0.45045045045,
+      "ppv_ceiling": 0.45045045045
+    },
+    {
+      "sensitivity":             1,
+      "carriage":          0.06,
+      "incidence_one_in":            50,
+      "ppv": 0.333333333333,
+      "npv":             1,
+      "nnt":            50,
+      "carrier_risk": 0.333333333333,
+      "ppv_ceiling": 0.333333333333
+    },
+    {
+      "sensitivity":             1,
+      "carriage":          0.06,
+      "incidence_one_in":            68,
+      "ppv": 0.245098039216,
+      "npv":             1,
+      "nnt":            68,
+      "carrier_risk": 0.245098039216,
+      "ppv_ceiling": 0.245098039216
+    },
+    {
+      "sensitivity":             1,
+      "carriage":          0.06,
+      "incidence_one_in":           417,
+      "ppv": 0.0399680255795,
+      "npv":             1,
+      "nnt":           417,
+      "carrier_risk": 0.0399680255795,
+      "ppv_ceiling": 0.0399680255795
+    },
+    {
+      "sensitivity":             1,
+      "carriage":          0.06,
+      "incidence_one_in":          1000,
+      "ppv": 0.0166666666667,
+      "npv":             1,
+      "nnt":          1000,
+      "carrier_risk": 0.0166666666667,
+      "ppv_ceiling": 0.0166666666667
+    },
+    {
+      "sensitivity":             1,
+      "carriage":          0.06,
+      "incidence_one_in":         10000,
+      "ppv": 0.00166666666667,
+      "npv":             1,
+      "nnt":         10000,
+      "carrier_risk": 0.00166666666667,
+      "ppv_ceiling": 0.00166666666667
+    },
+    {
+      "sensitivity":             1,
+      "carriage":          0.06,
+      "incidence_one_in":        100000,
+      "ppv": 0.000166666666667,
+      "npv":             1,
+      "nnt":        100000,
+      "carrier_risk": 0.000166666666667,
+      "ppv_ceiling": 0.000166666666667
+    },
+    {
+      "sensitivity":             1,
+      "carriage":         0.063,
+      "incidence_one_in":            37,
+      "ppv":   0.429000429,
+      "npv":             1,
+      "nnt":            37,
+      "carrier_risk":   0.429000429,
+      "ppv_ceiling":   0.429000429
+    },
+    {
+      "sensitivity":             1,
+      "carriage":         0.063,
+      "incidence_one_in":            50,
+      "ppv": 0.31746031746,
+      "npv":             1,
+      "nnt":            50,
+      "carrier_risk": 0.31746031746,
+      "ppv_ceiling": 0.31746031746
+    },
+    {
+      "sensitivity":             1,
+      "carriage":         0.063,
+      "incidence_one_in":            68,
+      "ppv": 0.233426704015,
+      "npv":             1,
+      "nnt":            68,
+      "carrier_risk": 0.233426704015,
+      "ppv_ceiling": 0.233426704015
+    },
+    {
+      "sensitivity":             1,
+      "carriage":         0.063,
+      "incidence_one_in":           417,
+      "ppv": 0.0380647862662,
+      "npv":             1,
+      "nnt":           417,
+      "carrier_risk": 0.0380647862662,
+      "ppv_ceiling": 0.0380647862662
+    },
+    {
+      "sensitivity":             1,
+      "carriage":         0.063,
+      "incidence_one_in":          1000,
+      "ppv": 0.015873015873,
+      "npv":             1,
+      "nnt":          1000,
+      "carrier_risk": 0.015873015873,
+      "ppv_ceiling": 0.015873015873
+    },
+    {
+      "sensitivity":             1,
+      "carriage":         0.063,
+      "incidence_one_in":         10000,
+      "ppv": 0.0015873015873,
+      "npv":             1,
+      "nnt":         10000,
+      "carrier_risk": 0.0015873015873,
+      "ppv_ceiling": 0.0015873015873
+    },
+    {
+      "sensitivity":             1,
+      "carriage":         0.063,
+      "incidence_one_in":        100000,
+      "ppv": 0.00015873015873,
+      "npv":             1,
+      "nnt":        100000,
+      "carrier_risk": 0.00015873015873,
+      "ppv_ceiling": 0.00015873015873
+    },
+    {
+      "sensitivity":             1,
+      "carriage":          0.09,
+      "incidence_one_in":            37,
+      "ppv":  0.3003003003,
+      "npv":             1,
+      "nnt":            37,
+      "carrier_risk":  0.3003003003,
+      "ppv_ceiling":  0.3003003003
+    },
+    {
+      "sensitivity":             1,
+      "carriage":          0.09,
+      "incidence_one_in":            50,
+      "ppv": 0.222222222222,
+      "npv":             1,
+      "nnt":            50,
+      "carrier_risk": 0.222222222222,
+      "ppv_ceiling": 0.222222222222
+    },
+    {
+      "sensitivity":             1,
+      "carriage":          0.09,
+      "incidence_one_in":            68,
+      "ppv": 0.16339869281,
+      "npv":             1,
+      "nnt":            68,
+      "carrier_risk": 0.16339869281,
+      "ppv_ceiling": 0.16339869281
+    },
+    {
+      "sensitivity":             1,
+      "carriage":          0.09,
+      "incidence_one_in":           417,
+      "ppv": 0.0266453503864,
+      "npv":             1,
+      "nnt":           417,
+      "carrier_risk": 0.0266453503864,
+      "ppv_ceiling": 0.0266453503864
+    },
+    {
+      "sensitivity":             1,
+      "carriage":          0.09,
+      "incidence_one_in":          1000,
+      "ppv": 0.0111111111111,
+      "npv":             1,
+      "nnt":          1000,
+      "carrier_risk": 0.0111111111111,
+      "ppv_ceiling": 0.0111111111111
+    },
+    {
+      "sensitivity":             1,
+      "carriage":          0.09,
+      "incidence_one_in":         10000,
+      "ppv": 0.00111111111111,
+      "npv":             1,
+      "nnt":         10000,
+      "carrier_risk": 0.00111111111111,
+      "ppv_ceiling": 0.00111111111111
+    },
+    {
+      "sensitivity":             1,
+      "carriage":          0.09,
+      "incidence_one_in":        100000,
+      "ppv": 0.000111111111111,
+      "npv":             1,
+      "nnt":        100000,
+      "carrier_risk": 0.000111111111111,
+      "ppv_ceiling": 0.000111111111111
+    },
+    {
+      "sensitivity":             1,
+      "carriage":         0.168,
+      "incidence_one_in":            37,
+      "ppv": 0.160875160875,
+      "npv":             1,
+      "nnt":            37,
+      "carrier_risk": 0.160875160875,
+      "ppv_ceiling": 0.160875160875
+    },
+    {
+      "sensitivity":             1,
+      "carriage":         0.168,
+      "incidence_one_in":            50,
+      "ppv": 0.119047619048,
+      "npv":             1,
+      "nnt":            50,
+      "carrier_risk": 0.119047619048,
+      "ppv_ceiling": 0.119047619048
+    },
+    {
+      "sensitivity":             1,
+      "carriage":         0.168,
+      "incidence_one_in":            68,
+      "ppv": 0.0875350140056,
+      "npv":             1,
+      "nnt":            68,
+      "carrier_risk": 0.0875350140056,
+      "ppv_ceiling": 0.0875350140056
+    },
+    {
+      "sensitivity":             1,
+      "carriage":         0.168,
+      "incidence_one_in":           417,
+      "ppv": 0.0142742948498,
+      "npv":             1,
+      "nnt":           417,
+      "carrier_risk": 0.0142742948498,
+      "ppv_ceiling": 0.0142742948498
+    },
+    {
+      "sensitivity":             1,
+      "carriage":         0.168,
+      "incidence_one_in":          1000,
+      "ppv": 0.00595238095238,
+      "npv":             1,
+      "nnt":          1000,
+      "carrier_risk": 0.00595238095238,
+      "ppv_ceiling": 0.00595238095238
+    },
+    {
+      "sensitivity":             1,
+      "carriage":         0.168,
+      "incidence_one_in":         10000,
+      "ppv": 0.000595238095238,
+      "npv":             1,
+      "nnt":         10000,
+      "carrier_risk": 0.000595238095238,
+      "ppv_ceiling": 0.000595238095238
+    },
+    {
+      "sensitivity":             1,
+      "carriage":         0.168,
+      "incidence_one_in":        100000,
+      "ppv": 5.95238095238e-05,
+      "npv":             1,
+      "nnt":        100000,
+      "carrier_risk": 5.95238095238e-05,
+      "ppv_ceiling": 5.95238095238e-05
+    }
+  ],
+  "power": [
+    {
+      "n_case":            29,
+      "n_ctrl":            58,
+      "carriage":         0.041,
+      "alpha":          0.05,
+      "mdor_80": 8.20444816378,
+      "power_at_or": [
+        {
+          "or":             2,
+          "power": 0.0994288541575
+        },
+        {
+          "or":             5,
+          "power": 0.498647195527
+        },
+        {
+          "or":            10,
+          "power": 0.888677377031
+        },
+        {
+          "or":          16.4,
+          "power": 0.988037746672
+        },
+        {
+          "or":            30,
+          "power": 0.999865557472
+        }
+      ]
+    },
+    {
+      "n_case":            29,
+      "n_ctrl":            58,
+      "carriage":         0.041,
+      "alpha":        0.0005,
+      "mdor_80": 17.5050369897,
+      "power_at_or": [
+        {
+          "or":             2,
+          "power": 0.000623252907716
+        },
+        {
+          "or":             5,
+          "power": 0.0412866307451
+        },
+        {
+          "or":            10,
+          "power": 0.350288267361
+        },
+        {
+          "or":          16.4,
+          "power": 0.756427415602
+        },
+        {
+          "or":            30,
+          "power": 0.980836832432
+        }
+      ]
+    },
+    {
+      "n_case":            23,
+      "n_ctrl":            46,
+      "carriage":         0.063,
+      "alpha":          0.05,
+      "mdor_80": 7.95859503952,
+      "power_at_or": [
+        {
+          "or":             2,
+          "power": 0.107484268404
+        },
+        {
+          "or":             5,
+          "power": 0.517512251161
+        },
+        {
+          "or":            10,
+          "power": 0.89822980123
+        },
+        {
+          "or":          16.4,
+          "power": 0.988134722431
+        },
+        {
+          "or":            30,
+          "power": 0.999769978611
+        }
+      ]
+    },
+    {
+      "n_case":            50,
+      "n_ctrl":            50,
+      "carriage":           0.1,
+      "alpha":          0.05,
+      "mdor_80": 4.70218344346,
+      "power_at_or": [
+        {
+          "or":             2,
+          "power": 0.134761480868
+        },
+        {
+          "or":             5,
+          "power": 0.839924421936
+        },
+        {
+          "or":            10,
+          "power": 0.997308597212
+        },
+        {
+          "or":          16.4,
+          "power": 0.999976197438
+        },
+        {
+          "or":            30,
+          "power": 0.999999989748
+        }
+      ]
+    },
+    {
+      "n_case":           100,
+      "n_ctrl":           200,
+      "carriage":          0.06,
+      "alpha":       2.5e-06,
+      "mdor_80": 7.00555273307,
+      "power_at_or": [
+        {
+          "or":             2,
+          "power": 0.000820586142213
+        },
+        {
+          "or":             5,
+          "power": 0.347193013463
+        },
+        {
+          "or":            10,
+          "power": 0.987396252081
+        },
+        {
+          "or":          16.4,
+          "power": 0.999990596411
+        },
+        {
+          "or":            30,
+          "power": 0.999999999995
+        }
+      ]
+    }
+  ]
+}
