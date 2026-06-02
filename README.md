@@ -1,11 +1,8 @@
 # hlaclinval
 
-[![DOI](https://zenodo.org/badge/1257496217.svg)](https://doi.org/10.5281/zenodo.20514792)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20514792.svg)](https://doi.org/10.5281/zenodo.20514792)
 
-Clinical-translation metrics for HLA association studies. One package covering
-both the predictive-value layer and the study-design layer, because a SCAR
-analysis uses them in sequence: *was I powered to detect this association, and
-if I found it, what is its clinical utility?*
+Clinical-translation metrics for HLA association studies. One package covering both the predictive-value layer and the study-design layer, because a SCAR analysis uses them in sequence: *was I powered to detect this association, and if I found it, what is its clinical utility?*
 
 ## Install
 
